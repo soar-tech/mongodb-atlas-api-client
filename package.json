@@ -1,6 +1,6 @@
 {
   "name": "@soartech/mongodb-atlas-api-client",
-  "version": "3.21.1",
+  "version": "3.21.2",
   "description": "A mongodb atlas api client for nodejs.",
   "main": "src/index.js",
   "scripts": {
@@ -45,5 +45,8 @@
   },
   "dependencies": {
     "urllib": "^2.38.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
